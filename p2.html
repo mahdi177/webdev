@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Watching</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9AFF9A;
+        }
+        header {
+            background-color: #32CD32;
+            padding: 10px;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Georgia', serif;
+            font-size: 3em;
+            margin: 0;
+            color: #2F4F4F;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        nav {
+            background-color: #228B22;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .welcome {
+            width: 65%;
+            background-color: #ADFF2F;
+            padding: 20px;
+        }
+        .welcome h2 {
+            font-family: 'Georgia', serif;
+            font-size: 2.5em;
+            color: #2F4F4F;
+        }
+        .welcome p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            color: #2F4F4F;
+        }
+        .sidebar {
+            width: 30%;
+            background-color: #7CFC00;
+            padding: 20px;
+        }
+        .sidebar h2 {
+            font-family: 'Georgia', serif;
+            font-size: 2.5em;
+            color: #2F4F4F;
+        }
+        .sidebar img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #32CD32;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #000080;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BIRDWATCHING</h1>
+        <img src="logo.png" alt="Logo" width="50">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">GET STARTED</a></li>
+            <li><a href="#">PHOTOS</a></li>
+            <li><a href="#">GEAR</a></li>
+            <li><a href="#">FORUM</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="welcome">
+            <h2>WELCOME</h2>
+            <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or an expert wanting to share ideas, tips, and photos with other like-minded people.</p>
+            <p>So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!</p>
+        </section>
+        <aside class="sidebar">
+            <h2>FAVOURITE PHOTOS</h2>
+            <img src="bird1.jpg" alt="Bird 1">
+            <img src="bird2.jpg" alt="Bird 2">
+            <img src="bird3.jpg" alt="Bird 3">
+        </aside>
+    </main>
+    <footer>
+        <p>This fake website example is CC0 — any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016.</p>
+        <p><a href="#">Dove icon by Lorc</a>.</p>
+    </footer>
+</body>
+</html>
